@@ -1,4 +1,4 @@
-![image](https://github.com/akibulshafi/Fylo-Landing-Page/assets/162458122/b095c144-267f-44a2-8dc3-ce3c1ae2bb8b)# Frontend Mentor - Fylo data storage component solution
+# Fylo Landing Page
 
 This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
