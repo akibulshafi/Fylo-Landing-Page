@@ -1,0 +1,495 @@
+:root {
+    /* ### Primary */
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+
+    /* ### Accent */
+
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+
+    /* ### Neutral */
+
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {text-decoration: none;}
+
+body {
+    width: 100%;
+}
+
+/*Header*/
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+nav {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 70%;
+}
+
+nav .menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.menu a {
+    color: var(--Very-Dark-Blue);
+    font-family: 'Open Sans', sans-serif;
+    text-wrap: nowrap;
+}
+
+/*HERO SECTION*/
+
+.hero {
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+.left h1 {
+    font-size: 2rem;
+    font-family: Raleway, sans-serif;
+    line-height: 1.4;
+    font-size: 2.3rem;
+}
+
+.left p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left .enter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left .enter input {
+    height: 42px;
+    width: 300px;
+    padding: 10px;
+}
+
+.left .enter button {
+    height: 42px;
+    padding: 0.8rem 4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: var(--Bright-Blue);
+    color: var(--Light-Grayish-Blue);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 2px;
+    text-wrap: nowrap;
+    display: inline-block;
+}
+
+.right {
+    width: 50%;
+}
+
+.right img {
+    width: 100%;
+}
+
+/*SECTION TWO*/
+
+.curved-bg {
+    width: 100%;
+    background-image: url(./fylo-landing-page-with-two-column-layout-master/images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    height: 114px;
+    margin: 0;
+    margin-top: 5%;
+    padding: 0;
+    background-position: center;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--Light-Grayish-Blue);
+    padding: 3rem;
+}
+
+.two .left-area {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.left-area h1 {
+    font-family: Raleway, sans-serif;
+    font-size: 2rem;
+}
+
+.left-area a {
+    color: var(--Moderate-Cyan);
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.left-area a img {
+    width: 20px
+}
+
+.left-area p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    opacity: 80%;
+}
+
+/*QUOTE CARD*/
+
+.quote-card {
+    background-color: var(--Light-Grayish-Blue);
+    padding: 2rem;
+    width: 70%;
+    box-shadow: 0px 0px 10px var(--Light-Gray);
+    margin-top: 30px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.quote-card p {
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.person-info {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.person img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/*QUOTE CARD END*/
+
+.two .right-area {
+    width: 50%;
+}
+
+.right-area img {
+    width: 100%;
+}
+
+/* SECTION THREE */
+
+.three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Desaturated-Blue);
+    color: var(--Light-Grayish-Blue);
+    width: 100%;
+    padding: 3rem;
+}
+
+.section-left {
+    width: 50%;
+}
+
+.section-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+}
+
+.section-right input {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+}
+
+.section-right button {
+    margin-top: 10px;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--Bright-Blue);
+    color: var(--Light-Grayish-Blue);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 1rem;
+    text-wrap: nowrap;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: var(--Very-Dark-Blue);
+    color: var(--Light-Grayish-Blue);
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact img {
+    filter: brightness(0) invert(1);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact p img {
+    margin-right: 10px;
+}
+
+.footer-info-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-info-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.social i {
+    border: 1px solid var(--Light-Grayish-Blue);
+    padding: 5px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.grid a {
+    color: var(--Light-Grayish-Blue)
+}
+
+/*COPYRIGHT*/
+
+.contribute {
+    text-align: center;
+    padding: 1rem;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+}
+
+/*HOVER*/
+
+button:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.grid a:hover {
+    color: var(--Desaturated-Blue);
+}
+
+/*RESPONSIVENESS*/
+
+@media screen and (max-width: 1024px) {
+    .left .enter {
+        display: inline-block;
+    }
+
+    .left .enter button {
+        display: inline-block;
+        margin-top: 5%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav .menu a {
+        font-size: 0.8rem;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    .hero { 
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .left .enter input {
+        width: 100%;
+    }
+
+    .left .enter button {
+        width: 100%;
+    }
+
+
+    .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left h1 {
+        font-size: 1.7rem;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right img {
+        width: 100%;
+    }
+}
+
+/*SECTION TWO RESPONSIVE*/
+
+@media screen and (max-width: 600px) {
+    .two {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .two .left-area {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .left-area h1 {
+        font-size: 1.25rem;
+    }
+
+    .two .right-area {
+        width: 100%;
+    }
+
+    .two .right-area img {
+        width: 100%;
+    }
+}
+
+/*SECTION THREE RESPONSIVENESS */
+
+@media screen and (max-width: 600px) {
+    .three {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .three .section-left {
+        width: 100%;
+    }
+    
+    .three .section-right input {
+        padding: 10px;
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        height: 50px;
+    }
+}
+
+/*FOOTER*/
+
+@media screen and (max-width: 425px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        float: left;
+        gap: 2rem;
+        padding: 0;
+    }
+
+    .faq {
+        float: left;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .curved-bg {
+        background-image: url(./fylo-landing-page-with-two-column-layout-master/images/bg-curve-mobile.svg);
+        background-position: center;
+        margin-bottom: -2rem;
+    }
+
+    .left .enter input {
+        width: 100%;
+    }
+
+    .left .enter button {
+        width: 100%;
+    }
+}
